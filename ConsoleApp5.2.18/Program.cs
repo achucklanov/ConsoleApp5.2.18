@@ -1,4 +1,4 @@
-﻿namespace ConsoleApp5._2._18
+﻿namespace ConsoleApp5._2._18   // Так же это можно отнести к решению задания 5.3.13.
 {
     internal class Program
     {
