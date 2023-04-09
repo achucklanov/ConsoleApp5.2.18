@@ -8,10 +8,10 @@
         static void Main(string[] args)
         {
             var resultUp = SortArray(arr, false);  // поменять местами ЛОЖЬ-ИСТИНА ? В связи с алгоритмом сортировки.
-            var resultDown = SortArray(arr, true);
-
-            ShowArray(resultDown);
             ShowArray(resultUp);
+
+            var resultDown = SortArray(arr, true);
+            ShowArray(resultDown);
         }
 
         static int[] SortArray(int[] result, bool isSortedUp)
